@@ -1,3 +1,26 @@
-main {
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap');
 
+
+main {
+    background-color: mediumaquamarine;
+    transform: skewX(-10deg) rotate(-10deg);
+    /* border: 1px solid red; */
+    align-items: center;
+    height: 90vh;
+    margin: auto;
+    width: 100vh;
+    display: flex;
 }
+
+
+body  {
+    font-family: 'Josefin Sans', sans-serif;
+  }
+
+
+  main div {
+      /* border: 1px solid red; */
+      width: 40%;
+      margin: auto;
+      padding: 10%;
+  }
