@@ -1,1 +1,13 @@
+button:hover {
+    animation-name: buttonanimation;
+    transition: 2s;
+    color: white;
+}
 
+
+
+@keyframes buttonanimation {
+    0% { background-color: ghostwhite }
+    50% { background-color: rgb(152, 178, 227) }
+    100% { background-color: cornflowerblue}
+}
